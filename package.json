@@ -1,0 +1,6 @@
+{
+	"devDependencies": {
+		"tailwindcss-animate": "^1.0.7",
+		"@tailwindcss/aspect-ratio": "^0.4.2"
+	}
+}
