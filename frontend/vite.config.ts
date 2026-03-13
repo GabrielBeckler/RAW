@@ -24,7 +24,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   server: {
-    host: '0.0.0.0', // 监听所有网络接口
+    host: '0.0.0.0', 
     port: parseInt(process.env.VITE_PORT || '3000'),
     proxy: {
       '/api': {
