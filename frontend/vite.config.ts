@@ -9,7 +9,7 @@ process.env.VITE_APP_DESCRIPTION ??= process.env.OVERVIEW_DESCRIPTION ?? 'Atoms 
 process.env.VITE_APP_LOGO_URL ??= process.env.OVERVIEW_LOGO_URL ?? 'https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   base: "/RAW/",
   plugins: [
     viteSourceLocator({
@@ -85,4 +85,4 @@ export default defineConfig(({ mode }) => ({
     },
     chunkSizeWarningLimit: 1000,
   },
-}));
+});
