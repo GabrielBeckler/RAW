@@ -86,8 +86,9 @@ export function getAPIBaseURL(): string {
 // Removed static export to prevent using stale config values
 // export const API_BASE_URL = getAPIBaseURL();
 
+
 export const config = {
-  get API_BASE_URL() {
-    return getAPIBaseURL();
-  },
+  API_BASE_URL: "",
+  title: "RAW",
+  description: "Site RAW",
 };
